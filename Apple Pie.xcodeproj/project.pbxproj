@@ -13,6 +13,7 @@
 		C0235B6624C05ADD002E1321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0235B6424C05ADD002E1321 /* Main.storyboard */; };
 		C0235B6824C05AE0002E1321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0235B6724C05AE0002E1321 /* Assets.xcassets */; };
 		C0235B6B24C05AE0002E1321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0235B6924C05AE0002E1321 /* LaunchScreen.storyboard */; };
+		C0235B7324C063DB002E1321 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0235B7224C063DB002E1321 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C0235B6724C05AE0002E1321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0235B6A24C05AE0002E1321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0235B6C24C05AE0002E1321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0235B7224C063DB002E1321 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				C0235B6724C05AE0002E1321 /* Assets.xcassets */,
 				C0235B6924C05AE0002E1321 /* LaunchScreen.storyboard */,
 				C0235B6C24C05AE0002E1321 /* Info.plist */,
+				C0235B7224C063DB002E1321 /* Game.swift */,
 			);
 			path = "Apple Pie";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				C0235B6324C05ADD002E1321 /* ViewController.swift in Sources */,
 				C0235B5F24C05ADD002E1321 /* AppDelegate.swift in Sources */,
 				C0235B6124C05ADD002E1321 /* SceneDelegate.swift in Sources */,
+				C0235B7324C063DB002E1321 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yegorheiz.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yegorheiz.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
